@@ -1,21 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import Bottom from './awesomeProject/components/Bottom';
 import Main from './awesomeProject/components/Main';
 
 export default function App() {
   return (
+    
 
-    <>
 
-    <Main/>
+    <View style={{backgroundColor:'#F4F8FD'}}>
+    <ScrollView>
+      <Main />
+    </ScrollView>
+
     <Bottom/>
-    </>
-    
-    
+    </View>
 
-    
+
+
+
   )
 }
 
